@@ -22,7 +22,9 @@ chroma_db/
 # Output files (optional - you may want to include sample outputs)
 outputs/
 *.json
+# Exclude markdown files except README
 *.md
+!README.md
 
 # IDE
 .vscode/

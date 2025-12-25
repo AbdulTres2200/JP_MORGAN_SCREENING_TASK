@@ -1,0 +1,13 @@
+# Core dependencies
+langchain
+langgraph
+langchain-community
+langchain-openai
+langchain-text-splitters
+pypdf
+chromadb
+openai
+tiktoken
+python-dotenv
+numpy<2.0.0
+

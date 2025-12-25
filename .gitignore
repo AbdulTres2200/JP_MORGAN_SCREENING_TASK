@@ -1,0 +1,53 @@
+# Environment variables
+.env.local
+.env
+.env.prod
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# ChromaDB vector database
+chroma_db/
+*.sqlite3
+*.db
+
+# Output files (optional - you may want to include sample outputs)
+outputs/
+*.json
+*.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PDFs (optional - you may want to include them)
+# pdfs/
+
+# iCloud files
+*.icloud
+
+# Logs
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/

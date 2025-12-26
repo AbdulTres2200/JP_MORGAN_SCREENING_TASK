@@ -19,8 +19,6 @@ chroma_db/
 *.sqlite3
 *.db
 
-# Output files (optional - you may want to include sample outputs)
-outputs/
 *.json
 # Exclude markdown files except README
 *.md

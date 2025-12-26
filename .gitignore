@@ -19,10 +19,13 @@ chroma_db/
 *.sqlite3
 *.db
 
+# Exclude JSON files except in outputs folder
 *.json
-# Exclude markdown files except README
+!outputs/*.json
+# Exclude markdown files except README and outputs
 *.md
 !README.md
+!outputs/*.md
 
 # IDE
 .vscode/
